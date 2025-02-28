@@ -1,7 +1,7 @@
 import React from 'react';
 import CV from "../assets/first page.pdf"; // Ensure CV is in `public/assets/`
 import { ButtonPrimary, ButtonOutline } from './Button';
-import profilepic from "../assets/pp.png"; // Ensure profile pic is in `public/assets/`
+
 
 export default function Hero() {
 

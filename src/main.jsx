@@ -5,7 +5,7 @@ import App from "./App.jsx";
 import 'lenis/dist/lenis.css'
 
 createRoot(document.getElementById("root")).render(
-  <StrictMode>
-        <App />
-  </StrictMode>
+  <BrowserRouter basename="/portfolio/"> {/* Ye change karna zaroori hai */}
+    <App />
+  </BrowserRouter>
 );

@@ -1,6 +1,7 @@
 import React from 'react';
 import CV from "../assets/first page.pdf"; // Ensure CV is in `public/assets/`
 import { ButtonPrimary, ButtonOutline } from './Button';
+import profilepic from "../assets/pp.png"; // Ensure profile pic is in `public/assets/`
 
 export default function Hero() {
 
@@ -46,7 +47,7 @@ export default function Hero() {
                 <div className="hidden lg:block">
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
                         <img
-                            src="/src/images/pp.png" // ✅ Corrected path
+                            src={profilepic}// ✅ Corrected path
                             width={656}
                             height={800}
                             alt="anjali"

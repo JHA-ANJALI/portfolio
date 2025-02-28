@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@gsap/react": "^2.1.2",
@@ -19,7 +19,7 @@
     "lenis": "^1.1.21",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.1.5",
+    "react-router-dom": "^7.2.0",
     "scrollbar": "^0.1.12",
     "smooth-scrollbar": "^8.8.4",
     "tailwind": "^4.0.0"

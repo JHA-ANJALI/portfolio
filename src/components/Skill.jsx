@@ -1,46 +1,55 @@
 import React from 'react'
 import SkillCard from './SkillCard';
+import figma from './figma.svg;'
+import css3 from './css3.svg';
+import javascript from './javascript.svg';
+import nodejs from './nodejs.svg';
+import expressjs from './expressjs.svg';
+import mongodb from './mongodb.svg';
+import react from './react.svg';  
+import tailwindcss from './tailwindcss.svg';
+
 
 export default function Skill() {
 
     const skillItem = [
         {
-          imgSrc:'./figma.svg',
+          imgSrc:{figma},
           label: 'Figma',
           desc: 'Design tool'
         },
         {
-          imgSrc: '/images/css3.svg',
+          imgSrc: {css3},
           label: 'CSS',
           desc: 'User Interface'
         },
         {
-          imgSrc: '/images/javascript.svg',
+          imgSrc: {javascript},
           label: 'JavaScript',
           desc: 'Interaction'
         },
         {
-          imgSrc: '/images/nodejs.svg',
+          imgSrc: {nodejs},
           label: 'NodeJS',
           desc: 'Web Server'
         },
         {
-          imgSrc: '/images/expressjs.svg',
+          imgSrc: {expressjs},
           label: 'ExpressJS',
           desc: 'Node Framework'
         },
         {
-          imgSrc: '/images/mongodb.svg',
+          imgSrc: {mongodb},
           label: 'MongoDB',
           desc: 'Database'
         },
         {
-          imgSrc: '/images/react.svg',
+          imgSrc: {react},
           label: 'React',
           desc: 'Framework'
         },
         {
-          imgSrc: '/images/tailwindcss.svg',
+          imgSrc: {tailwindcss},
           label: 'TailwindCSS',
           desc: 'User Interface'
         },

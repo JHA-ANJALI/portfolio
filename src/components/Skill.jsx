@@ -5,7 +5,7 @@ export default function Skill() {
 
     const skillItem = [
         {
-          imgSrc:'/images/figma.svg',
+          imgSrc:'./figma.svg',
           label: 'Figma',
           desc: 'Design tool'
         },

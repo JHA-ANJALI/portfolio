@@ -1,6 +1,7 @@
 import React from 'react';
 import CV from "../assets/first page.pdf"; // Ensure CV is in `public/assets/`
 import { ButtonPrimary, ButtonOutline } from './Button';
+import profilepic from './pp.png'
 
 
 export default function Hero() {
@@ -13,7 +14,7 @@ export default function Hero() {
                     <div className="flex items-center gap-3">
                         <figure className="img-box w-9 h-9 rounded-lg">
                             <img
-                                src="/assets/pp.png" // ✅ Corrected path
+                                src={profilepic} // ✅ Corrected path
                                 width={40}
                                 height={40}
                                 alt="anjali"
@@ -47,7 +48,7 @@ export default function Hero() {
                 <div className="hidden lg:block">
                     <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
                         <img
-                            src="/assets/pp.png"// ✅ Corrected path
+                            src={profilepic}// ✅ Corrected path
                             width={656}
                             height={800}
                             alt="anjali"

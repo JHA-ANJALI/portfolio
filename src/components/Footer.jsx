@@ -1,5 +1,6 @@
 import React from 'react'
 import {ButtonPrimary} from "./Button"
+import logoportfolio from './logoportfolio.png'
 export default function Footer() {
 
     const sitemap = [
@@ -100,7 +101,7 @@ export default function Footer() {
 
             <div className='flex items-center justify-between pt-10 mb-8'>
           <a href="/" className='reveal-up'>
-            <img src="/images/logoportfolio.png" 
+            <img src={logoportfolio} 
             width={40}
             height={40}
             alt="Logo" />

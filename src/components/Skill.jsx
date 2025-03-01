@@ -14,42 +14,42 @@ export default function Skill() {
 
     const skillItem = [
         {
-          imgSrc:{figma},
+          imgSrc:figma,
           label: 'Figma',
           desc: 'Design tool'
         },
         {
-          imgSrc: {css3},
+          imgSrc: css3,
           label: 'CSS',
           desc: 'User Interface'
         },
         {
-          imgSrc: {javascript},
+          imgSrc: javascript,
           label: 'JavaScript',
           desc: 'Interaction'
         },
         {
-          imgSrc: {nodejs},
+          imgSrc: nodejs,
           label: 'NodeJS',
           desc: 'Web Server'
         },
         {
-          imgSrc: {expressjs},
+          imgSrc: expressjs,
           label: 'ExpressJS',
           desc: 'Node Framework'
         },
         {
-          imgSrc: {mongodb},
+          imgSrc: mongodb,
           label: 'MongoDB',
           desc: 'Database'
         },
         {
-          imgSrc: {react},
+          imgSrc: react,
           label: 'React',
           desc: 'Framework'
         },
         {
-          imgSrc: {tailwindcss},
+          imgSrc: tailwindcss,
           label: 'TailwindCSS',
           desc: 'User Interface'
         },

@@ -1,6 +1,6 @@
 import React from 'react'
 import SkillCard from './SkillCard';
-import figma from './figma.svg;'
+import figma from './figma.svg';
 import css3 from './css3.svg';
 import javascript from './javascript.svg';
 import nodejs from './nodejs.svg';

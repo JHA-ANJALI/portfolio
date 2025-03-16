@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './App.css'
 
 import { ReactLenis, useLenis } from 'lenis/react'
 import gsap from 'gsap'

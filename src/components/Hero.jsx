@@ -1,5 +1,5 @@
 import React from 'react';
-import CV from "../assets/first page.pdf"; // Ensure CV is in `public/assets/`
+import CV from "../assets/Anjali_Jha_CV.pdf"; // Ensure CV is in `public/assets/`
 import { ButtonPrimary, ButtonOutline } from './Button';
 import profilepic from './pp.png'
 

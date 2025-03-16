@@ -1,9 +1,10 @@
 import React from 'react';
 import ProjectCard from './ProjectCard';
+import portfoliopropic from "./PORTFOLIOPROPIC.png"
 
 export default function Work() {
   const works = [
-    { imgSrc: '/images/project-1.jpg', title: 'Full stack music app', tags: ['API', 'MVC', 'Development'], projectLink: 'https://musify-5al0.onrender.com/' },
+    { imgSrc: {portfoliopropic}, title: 'Full stack music app', tags: ['REACT.JS', 'TAILWIND CSS'], projectLink: 'https://jha-anjali.github.io/portfolio/' },
     { imgSrc: '/images/project-2.jpg', title: 'Free stock photo app', tags: ['API', 'SPA'], projectLink: 'https://pixstock-official.vercel.app/' },
     { imgSrc: '/images/project-3.jpg', title: 'Recipe app', tags: ['Development', 'API'], projectLink: '' },
     { imgSrc: '/images/project-4.jpg', title: 'Real estate website', tags: ['Web-design', 'Development'], projectLink: 'https://github.com/codewithsadee-org/wealthome' },
